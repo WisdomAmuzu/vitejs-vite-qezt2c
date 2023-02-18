@@ -53,3 +53,18 @@ div.playground {
   top: -20px;
   left: -100px;
 }
+
+button {
+  /* width: 100px; */
+  position: relative;
+  top: 80px;
+  height: 40px;
+  background: linear-gradient(45deg, green, yellow);
+  transition: all ease-in-out 5s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  border-radius: 20px;
+  background: linear-gradient(45deg, yellow, green);
+}

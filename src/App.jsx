@@ -30,6 +30,9 @@ function App() {
           <div className="circle-content"><p>timeline 3</p></div>
           <div className="line-content"></div>
           <div className="circle-content"><p>timeline 4</p></div>
+          <div>
+            <button>press me</button>
+          </div>
           </div>
        </div>
       </div>
