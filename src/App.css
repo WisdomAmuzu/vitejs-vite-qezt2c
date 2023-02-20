@@ -55,16 +55,18 @@ div.playground {
 }
 
 button {
-  /* width: 100px; */
+  width: 150px;
   position: relative;
   top: 80px;
   height: 40px;
   background: linear-gradient(45deg, green, yellow);
-  transition: all ease-in-out 5s;
+  /* transition: all ease-in-out .4s; */
+  transition: width .4s ease-in-out;
 }
 
 button:hover {
   transform: translateY(-2px);
   border-radius: 20px;
   background: linear-gradient(45deg, yellow, green);
+  width: 200px;
 }
